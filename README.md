@@ -1,18 +1,87 @@
-# React + Vite
+# 📋 Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Task Manager built with **React** and **Vite** to help users organize, prioritize, and track daily tasks efficiently. The application features a clean, intuitive interface and works seamlessly on both desktop and mobile devices. It also supports Progressive Web App (PWA) functionality, allowing users to install it for a more app-like experience.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Add new tasks
+- ✏️ Edit existing tasks
+- 🗑️ Delete tasks
+- ✔️ Mark tasks as completed
+- 📂 Filter tasks (All, Active, Completed)
+- 💾 Persistent storage using Local Storage
+- 📱 Responsive design for mobile and desktop
+- ⚡ Fast performance with Vite
+- 📦 Progressive Web App (PWA) support
+- 🎨 Modern dark theme with Forest Green, Gold, and Cream accents
 
-## React Compiler
+## 🛠️ Built With
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- HTML5
+- Local Storage API
+- PWA (Service Worker & Web App Manifest)
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Task Manager
-# Task Manager
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/task-manager.git
+```
+
+Navigate to the project:
+
+```bash
+cd task-manager
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## 📱 Progressive Web App
+
+This project supports installation on supported browsers, enabling users to launch the app directly from their home screen with an app-like experience.
+
+## 🎯 Future Improvements
+
+- User authentication
+- Cloud synchronization
+- Task categories
+- Due dates and reminders
+- Drag-and-drop task sorting
+- Light and dark mode toggle
+- Search functionality
+- Task statistics dashboard
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+Made with ❤️ using React.
